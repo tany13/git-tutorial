@@ -45,6 +45,15 @@ public class UsingGoogleSearchPage {
         searchString.submit();
     }
         
+    @Test
+    public void testSearchPageCh1(){
+        System.setProperty("webdriver.chrome.driver", "C:\\Drivers\\chromedriver.exe");
+        WebDriver driver = new ChromeDriver();
+        driver.get("http://www.google.com/");
+        WebElement searchString = driver.findElement(By.name("q"));
+        searchString.sendKeys("Cheese");
+        searchString.submit();
+    }
 
 }     
 
