@@ -37,12 +37,12 @@ public class UsingGoogleSearchPage {
     
     @Test
     public void testSearchPageCh(){
-//        System.setProperty("webdriver.chrome.driver", "C:\\Drivers\\chromedriver.exe");
-//        WebDriver driver = new ChromeDriver();
-//        driver.get("http://www.google.com/");
-//        WebElement searchString = driver.findElement(By.name("q"));
-//        searchString.sendKeys("Cheese");
-//        searchString.submit();
+        System.setProperty("webdriver.chrome.driver", "C:\\Drivers\\chromedriver.exe");
+        WebDriver driver = new ChromeDriver();
+        driver.get("http://www.google.com/");
+        WebElement searchString = driver.findElement(By.name("q"));
+        searchString.sendKeys("Cheese");
+        searchString.submit();
     }
         
 
