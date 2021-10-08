@@ -5,4 +5,4 @@
 /.settings/
 /bin/
 .idea/
-.iml
+*.iml
